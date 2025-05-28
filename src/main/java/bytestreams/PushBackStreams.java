@@ -16,17 +16,15 @@ public class PushBackStreams {
 
         int b = 0;
         while ((b = filter.read()) != -1) {
-            switch (b) {
-                case '&':
-                    if((b = filter.read()) == '&') {
-                        System.out.print("Logical And");
-                    } else {
-                        System.out.print("Bitwise And");
-                        filter.unread(b);
-                    }
-                    break;
-                default:
-                    System.out.print((char) b);
+            if (b == '&') {
+                if ((b = filter.read()) == '&') {
+                    System.out.print("Logical And");
+                } else {
+                    System.out.print("Bitwise And");
+                    filter.unread(b);
+                }
+            } else {
+                System.out.print((char) b);
             }
         }
     }
