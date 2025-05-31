@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b60203a2-d4ff-4a1e-9e08-a554176dd656" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/characterstreams/ReadingWritingThroughBuffers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/characterstreams/SkippingMarkingResetting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,7 @@
     "Application.PushBackStreams.executor": "Run",
     "Application.ReadingWritingThroughBuffers.executor": "Run",
     "Application.SequenceStreams.executor": "Run",
+    "Application.SkippingMarkingResetting.executor": "Run",
     "Application.TheNeed.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -54,7 +55,7 @@
       <recent name="fileapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadingWritingThroughBuffers">
+  <component name="RunManager" selected="Application.SkippingMarkingResetting">
     <configuration name="FIleReaderAndFileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="characterstreams.FIleReaderAndFileWriter" />
       <module name="java-io" />
@@ -81,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PushBackStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bytestreams.PushBackStreams" />
+    <configuration name="ReadingWritingThroughBuffers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="characterstreams.ReadingWritingThroughBuffers" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bytestreams.*" />
+          <option name="PATTERN" value="characterstreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadingWritingThroughBuffers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterstreams.ReadingWritingThroughBuffers" />
+    <configuration name="SkippingMarkingResetting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="characterstreams.SkippingMarkingResetting" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SkippingMarkingResetting" />
         <item itemvalue="Application.ReadingWritingThroughBuffers" />
         <item itemvalue="Application.FIleReaderAndFileWriter" />
         <item itemvalue="Application.TheNeed" />
         <item itemvalue="Application.PrintStreams" />
-        <item itemvalue="Application.PushBackStreams" />
       </list>
     </recent_temporary>
   </component>
