@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b60203a2-d4ff-4a1e-9e08-a554176dd656" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Frankestein.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/characterstreams/FIleReaderAndFileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/characterstreams/ReadingWritingThroughBuffers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +41,7 @@
     "Application.PipedStream.executor": "Run",
     "Application.PrintStreams.executor": "Run",
     "Application.PushBackStreams.executor": "Run",
+    "Application.ReadingWritingThroughBuffers.executor": "Run",
     "Application.SequenceStreams.executor": "Run",
     "Application.TheNeed.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -55,20 +54,7 @@
       <recent name="fileapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FIleReaderAndFileWriter">
-    <configuration name="BufferedStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bytestreams.BufferedStream" />
-      <module name="java-io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bytestreams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReadingWritingThroughBuffers">
     <configuration name="FIleReaderAndFileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="characterstreams.FIleReaderAndFileWriter" />
       <module name="java-io" />
@@ -108,6 +94,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadingWritingThroughBuffers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="characterstreams.ReadingWritingThroughBuffers" />
+      <module name="java-io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="characterstreams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TheNeed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="characterstreams.TheNeed" />
       <module name="java-io" />
@@ -123,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadingWritingThroughBuffers" />
         <item itemvalue="Application.FIleReaderAndFileWriter" />
         <item itemvalue="Application.TheNeed" />
         <item itemvalue="Application.PrintStreams" />
         <item itemvalue="Application.PushBackStreams" />
-        <item itemvalue="Application.BufferedStream" />
       </list>
     </recent_temporary>
   </component>
