@@ -10,7 +10,7 @@ import java.io.Writer;
 
 public class SkippingMarkingResetting {
     public static void main(String[] args) {
-        File file = new File("src/Frankestein.txt");
+        File file = new File("src/Frankenstein.txt");
         File outFile = new File("src/BookContent");
 
         try(Reader reader = new FileReader(file); Writer writer = new FileWriter(outFile)) {

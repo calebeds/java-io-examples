@@ -12,7 +12,7 @@ import java.nio.charset.StandardCharsets;
 
 public class FIleReaderAndFileWriter {
     public static void main(String[] args) {
-        File file = new File("src/Frankestein.txt");
+        File file = new File("src/Frankenstein.txt");
         File bookInformation = new File("src/BookInformation.txt");
 
         try(Reader reader = new FileReader(file, StandardCharsets.UTF_8); Writer writer = new FileWriter(bookInformation)) {

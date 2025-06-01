@@ -11,7 +11,7 @@ import java.time.Instant;
 
 public class BufferedCharacterStreams {
     public static void main(String[] args) throws IOException {
-        File file = new File("src/Frankestein.txt");
+        File file = new File("src/Frankenstein.txt");
         File outFile = new File("src/Acopy.txt");
 
         var reader = new BufferedReader(new FileReader(file));

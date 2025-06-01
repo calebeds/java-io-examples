@@ -9,7 +9,7 @@ import java.io.Writer;
 
 public class ReadingWritingThroughBuffers {
     public static void main(String[] args) throws IOException {
-        File file = new File("src/Frankestein.txt");
+        File file = new File("src/Frankenstein.txt");
         File outFile = new File("src/FrankesteinCopy.txt");
 
         Reader reader = new FileReader(file);

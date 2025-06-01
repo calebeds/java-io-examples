@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b60203a2-d4ff-4a1e-9e08-a554176dd656" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/characterstreams/BufferedCharacterStreams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/characterstreams/PipedCharacterStreams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,7 @@
     "Application.FIleReaderAndFileWriter.executor": "Run",
     "Application.FileAPIMethods.executor": "Run",
     "Application.InMemoryStreams.executor": "Run",
+    "Application.PipedCharacterStreams.executor": "Run",
     "Application.PipedStream.executor": "Run",
     "Application.PrintStreams.executor": "Run",
     "Application.PushBackStreams.executor": "Run",
@@ -59,7 +59,7 @@
       <recent name="fileapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BufferedCharacterStreams">
+  <component name="RunManager" selected="Application.PipedCharacterStreams">
     <configuration name="BufferedCharacterStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="characterstreams.BufferedCharacterStreams" />
       <module name="java-io" />
@@ -73,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadingWritingCharArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterstreams.ReadingWritingCharArray" />
+    <configuration name="PipedCharacterStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="characterstreams.PipedCharacterStreams" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadingWritingThroughBuffers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterstreams.ReadingWritingThroughBuffers" />
+    <configuration name="ReadingWritingCharArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="characterstreams.ReadingWritingCharArray" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PipedCharacterStreams" />
         <item itemvalue="Application.BufferedCharacterStreams" />
         <item itemvalue="Application.StringReaderAndStringWriter" />
         <item itemvalue="Application.ReadingWritingCharArray" />
         <item itemvalue="Application.SkippingMarkingResetting" />
-        <item itemvalue="Application.ReadingWritingThroughBuffers" />
       </list>
     </recent_temporary>
   </component>
