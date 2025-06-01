@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b60203a2-d4ff-4a1e-9e08-a554176dd656" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/characterstreams/SkippingMarkingResetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/characterstreams/ReadingWritingCharArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,7 @@
     "Application.PipedStream.executor": "Run",
     "Application.PrintStreams.executor": "Run",
     "Application.PushBackStreams.executor": "Run",
+    "Application.ReadingWritingCharArray.executor": "Run",
     "Application.ReadingWritingThroughBuffers.executor": "Run",
     "Application.SequenceStreams.executor": "Run",
     "Application.SkippingMarkingResetting.executor": "Run",
@@ -55,7 +56,7 @@
       <recent name="fileapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SkippingMarkingResetting">
+  <component name="RunManager" selected="Application.ReadingWritingCharArray">
     <configuration name="FIleReaderAndFileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="characterstreams.FIleReaderAndFileWriter" />
       <module name="java-io" />
@@ -69,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bytestreams.PrintStreams" />
+    <configuration name="ReadingWritingCharArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="characterstreams.ReadingWritingCharArray" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bytestreams.*" />
+          <option name="PATTERN" value="characterstreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadingWritingCharArray" />
         <item itemvalue="Application.SkippingMarkingResetting" />
         <item itemvalue="Application.ReadingWritingThroughBuffers" />
         <item itemvalue="Application.FIleReaderAndFileWriter" />
         <item itemvalue="Application.TheNeed" />
-        <item itemvalue="Application.PrintStreams" />
       </list>
     </recent_temporary>
   </component>
