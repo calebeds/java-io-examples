@@ -9,7 +9,7 @@ public class Player implements Serializable {
 
     private Integer points;
 
-    private String userName;
+    private User userDetails;
 
     public Integer getLevel() {
         return level;
@@ -27,12 +27,12 @@ public class Player implements Serializable {
         this.points = points;
     }
 
-    public String getUserName() {
-        return userName;
+    public User getUserDetails() {
+        return userDetails;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUserDetails(User userDetails) {
+        this.userDetails = userDetails;
     }
 
     @Override
@@ -40,7 +40,7 @@ public class Player implements Serializable {
         return "Player{" +
                 "level=" + level +
                 ", points=" + points +
-                ", userName='" + userName + '\'' +
+                ", userName='" + userDetails + '\'' +
                 '}';
     }
 }

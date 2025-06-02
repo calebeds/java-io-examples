@@ -9,8 +9,10 @@ import java.io.ObjectOutputStream;
 public class SerializationDemo {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         Player player = new Player();
+        User user = new User(101, "user", "xyz");
         player.setLevel(55);
-        player.setUserName("Thanos");
+        player.setUserDetails(user);
+//        player.setUserDetails("Thanos");
         player.setPoints(345657);
 
         serialize(player, "playerInfo.bin");
