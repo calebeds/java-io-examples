@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b60203a2-d4ff-4a1e-9e08-a554176dd656" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/characterstreams/PipedCharacterStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PopularHashTags.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/characterstreams/FiltersCharacterStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/characterstreams/HashTagReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +40,7 @@
     "Application.FISAndFOS.executor": "Run",
     "Application.FIleReaderAndFileWriter.executor": "Run",
     "Application.FileAPIMethods.executor": "Run",
+    "Application.FiltersCharacterStreams.executor": "Run",
     "Application.InMemoryStreams.executor": "Run",
     "Application.PipedCharacterStreams.executor": "Run",
     "Application.PipedStream.executor": "Run",
@@ -59,9 +62,22 @@
       <recent name="fileapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PipedCharacterStreams">
+  <component name="RunManager" selected="Application.FiltersCharacterStreams">
     <configuration name="BufferedCharacterStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="characterstreams.BufferedCharacterStreams" />
+      <module name="java-io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="characterstreams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FiltersCharacterStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="characterstreams.FiltersCharacterStreams" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
@@ -99,19 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SkippingMarkingResetting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterstreams.SkippingMarkingResetting" />
-      <module name="java-io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="characterstreams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringReaderAndStringWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="characterstreams.StringReaderAndStringWriter" />
       <module name="java-io" />
@@ -127,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FiltersCharacterStreams" />
         <item itemvalue="Application.PipedCharacterStreams" />
         <item itemvalue="Application.BufferedCharacterStreams" />
         <item itemvalue="Application.StringReaderAndStringWriter" />
         <item itemvalue="Application.ReadingWritingCharArray" />
-        <item itemvalue="Application.SkippingMarkingResetting" />
       </list>
     </recent_temporary>
   </component>
