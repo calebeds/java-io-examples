@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b60203a2-d4ff-4a1e-9e08-a554176dd656" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataoutputstream/DataStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataoutputstream/AcessingRandomly.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AcessingRandomly.executor": "Run",
     "Application.BufferedCharacterStreams.executor": "Run",
     "Application.BufferedStream.executor": "Run",
     "Application.DataStreams.executor": "Run",
@@ -62,13 +63,13 @@
       <recent name="fileapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataStreams">
-    <configuration name="BufferedCharacterStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterstreams.BufferedCharacterStreams" />
+  <component name="RunManager" selected="Application.AcessingRandomly">
+    <configuration name="AcessingRandomly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataoutputstream.AcessingRandomly" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="characterstreams.*" />
+          <option name="PATTERN" value="dataoutputstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AcessingRandomly" />
         <item itemvalue="Application.DataStreams" />
         <item itemvalue="Application.WhyDataStreams" />
         <item itemvalue="Application.FiltersCharacterStreams" />
         <item itemvalue="Application.PipedCharacterStreams" />
-        <item itemvalue="Application.BufferedCharacterStreams" />
       </list>
     </recent_temporary>
   </component>
