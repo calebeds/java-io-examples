@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b60203a2-d4ff-4a1e-9e08-a554176dd656" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataoutputstream/AcessingRandomly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serialization/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serialization/SerializationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
     "Application.ReadingWritingCharArray.executor": "Run",
     "Application.ReadingWritingThroughBuffers.executor": "Run",
     "Application.SequenceStreams.executor": "Run",
+    "Application.SerializationDemo.executor": "Run",
     "Application.SkippingMarkingResetting.executor": "Run",
     "Application.StringReaderAndStringWriter.executor": "Run",
     "Application.TheNeed.executor": "Run",
@@ -63,7 +66,7 @@
       <recent name="fileapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AcessingRandomly">
+  <component name="RunManager" selected="Application.SerializationDemo">
     <configuration name="AcessingRandomly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataoutputstream.AcessingRandomly" />
       <module name="java-io" />
@@ -103,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PipedCharacterStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterstreams.PipedCharacterStreams" />
+    <configuration name="SerializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serialization.SerializationDemo" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="characterstreams.*" />
+          <option name="PATTERN" value="serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SerializationDemo" />
         <item itemvalue="Application.AcessingRandomly" />
         <item itemvalue="Application.DataStreams" />
         <item itemvalue="Application.WhyDataStreams" />
         <item itemvalue="Application.FiltersCharacterStreams" />
-        <item itemvalue="Application.PipedCharacterStreams" />
       </list>
     </recent_temporary>
   </component>
