@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b60203a2-d4ff-4a1e-9e08-a554176dd656" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/serialization/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerInfo.bin" beforeDir="false" afterPath="$PROJECT_DIR$/playerInfo.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serialization/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serialization/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/serialization/SerializationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serialization/SerializationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serialization/privatemethods/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serialization/privatemethods/SerializationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serialization/privatemethods/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,40 +33,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AcessingRandomly.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BufferedCharacterStreams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BufferedStream.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataStreams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FISAndFOS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FIleReaderAndFileWriter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileAPIMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FiltersCharacterStreams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InMemoryStreams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PipedCharacterStreams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PipedStream.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintStreams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PushBackStreams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadingWritingCharArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReadingWritingThroughBuffers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SequenceStreams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SerializationDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SkippingMarkingResetting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringReaderAndStringWriter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TheNeed.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WhyDataStreams.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AcessingRandomly.executor": "Run",
+    "Application.BufferedCharacterStreams.executor": "Run",
+    "Application.BufferedStream.executor": "Run",
+    "Application.DataStreams.executor": "Run",
+    "Application.FISAndFOS.executor": "Run",
+    "Application.FIleReaderAndFileWriter.executor": "Run",
+    "Application.FileAPIMethods.executor": "Run",
+    "Application.FiltersCharacterStreams.executor": "Run",
+    "Application.InMemoryStreams.executor": "Run",
+    "Application.PipedCharacterStreams.executor": "Run",
+    "Application.PipedStream.executor": "Run",
+    "Application.PrintStreams.executor": "Run",
+    "Application.PushBackStreams.executor": "Run",
+    "Application.ReadingWritingCharArray.executor": "Run",
+    "Application.ReadingWritingThroughBuffers.executor": "Run",
+    "Application.SequenceStreams.executor": "Run",
+    "Application.SerializationDemo.executor": "Run",
+    "Application.SkippingMarkingResetting.executor": "Run",
+    "Application.StringReaderAndStringWriter.executor": "Run",
+    "Application.TheNeed.executor": "Run",
+    "Application.WhyDataStreams.executor": "Run",
+    "Application.serialization.privatemethods.SerializationDemo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/calebesantos/dev/projects/java-io/src/main/java/serialization/privatemethods",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/serialization/privatemethods" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="fileapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SerializationDemo">
+  <component name="RunManager" selected="Application.serialization.privatemethods.SerializationDemo">
     <configuration name="AcessingRandomly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataoutputstream.AcessingRandomly" />
       <module name="java-io" />
@@ -88,19 +94,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dataoutputstream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FiltersCharacterStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterstreams.FiltersCharacterStreams" />
-      <module name="java-io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="characterstreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,13 +127,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="serialization.privatemethods.SerializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serialization.privatemethods.SerializationDemo" />
+      <module name="java-io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serialization.privatemethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.serialization.privatemethods.SerializationDemo" />
         <item itemvalue="Application.SerializationDemo" />
         <item itemvalue="Application.AcessingRandomly" />
         <item itemvalue="Application.DataStreams" />
         <item itemvalue="Application.WhyDataStreams" />
-        <item itemvalue="Application.FiltersCharacterStreams" />
       </list>
     </recent_temporary>
   </component>
