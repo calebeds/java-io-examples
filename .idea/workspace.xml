@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b60203a2-d4ff-4a1e-9e08-a554176dd656" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/serialization/privatemethods/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/serialization/privatemethods/SerializationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/serialization/privatemethods/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serialization/externalization/ExternalizationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serialization/externalization/Subtitles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,7 @@
     "Application.BufferedCharacterStreams.executor": "Run",
     "Application.BufferedStream.executor": "Run",
     "Application.DataStreams.executor": "Run",
+    "Application.ExternalizationDemo.executor": "Run",
     "Application.FISAndFOS.executor": "Run",
     "Application.FIleReaderAndFileWriter.executor": "Run",
     "Application.FileAPIMethods.executor": "Run",
@@ -74,7 +74,7 @@
       <recent name="fileapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.serialization.privatemethods.SerializationDemo">
+  <component name="RunManager" selected="Application.ExternalizationDemo">
     <configuration name="AcessingRandomly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataoutputstream.AcessingRandomly" />
       <module name="java-io" />
@@ -101,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serialization.SerializationDemo" />
+    <configuration name="ExternalizationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serialization.externalization.ExternalizationDemo" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="serialization.*" />
+          <option name="PATTERN" value="serialization.externalization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhyDataStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataoutputstream.WhyDataStreams" />
+    <configuration name="SerializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serialization.SerializationDemo" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataoutputstream.*" />
+          <option name="PATTERN" value="serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExternalizationDemo" />
         <item itemvalue="Application.serialization.privatemethods.SerializationDemo" />
         <item itemvalue="Application.SerializationDemo" />
         <item itemvalue="Application.AcessingRandomly" />
         <item itemvalue="Application.DataStreams" />
-        <item itemvalue="Application.WhyDataStreams" />
       </list>
     </recent_temporary>
   </component>
