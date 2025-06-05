@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b60203a2-d4ff-4a1e-9e08-a554176dd656" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/compressedstreams/GZipExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/compressedstreams/ZipDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +62,7 @@
     "Application.TheNeed.executor": "Run",
     "Application.WhyDataStreams.executor": "Run",
     "Application.WriteToHybridStream.executor": "Run",
+    "Application.ZipDemo.executor": "Run",
     "Application.serialization.privatemethods.SerializationDemo.executor": "Run",
     "Application.serialization.proxyobject.SerializationDemo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -85,7 +87,7 @@
       <recent name="fileapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GZipExample">
+  <component name="RunManager" selected="Application.ZipDemo">
     <configuration name="GZipExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="compressedstreams.GZipExample" />
       <module name="java-io" />
@@ -105,19 +107,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="standardstreams.moreoptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadHybridStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hybridstreams.ReadHybridStream" />
-      <module name="java-io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hybridstreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,13 +140,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZipDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compressedstreams.ZipDemo" />
+      <module name="java-io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compressedstreams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZipDemo" />
         <item itemvalue="Application.GZipExample" />
         <item itemvalue="Application.ScannerExample" />
         <item itemvalue="Application.Password" />
         <item itemvalue="Application.StandardStreams" />
-        <item itemvalue="Application.ReadHybridStream" />
       </list>
     </recent_temporary>
   </component>
