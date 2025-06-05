@@ -1,4 +1,4 @@
-package standardstreams;
+package moreoptions;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;

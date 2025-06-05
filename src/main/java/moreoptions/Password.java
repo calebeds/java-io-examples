@@ -1,4 +1,4 @@
-package standardstreams.moreoptions;
+package moreoptions;
 
 import java.io.Console;
 import java.io.IOException;
