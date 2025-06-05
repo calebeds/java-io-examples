@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b60203a2-d4ff-4a1e-9e08-a554176dd656" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/compressedstreams/ZipDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pathapi/WorkingWithPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +61,7 @@
     "Application.StringReaderAndStringWriter.executor": "Run",
     "Application.TheNeed.executor": "Run",
     "Application.WhyDataStreams.executor": "Run",
+    "Application.WorkingWithPath.executor": "Run",
     "Application.WriteToHybridStream.executor": "Run",
     "Application.ZipDemo.executor": "Run",
     "Application.serialization.privatemethods.SerializationDemo.executor": "Run",
@@ -87,7 +88,7 @@
       <recent name="fileapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZipDemo">
+  <component name="RunManager" selected="Application.WorkingWithPath">
     <configuration name="GZipExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="compressedstreams.GZipExample" />
       <module name="java-io" />
@@ -127,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StandardStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="standardstreams.moreoptions.StandardStreams" />
+    <configuration name="WorkingWithPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pathapi.WorkingWithPath" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="standardstreams.moreoptions.*" />
+          <option name="PATTERN" value="pathapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WorkingWithPath" />
         <item itemvalue="Application.ZipDemo" />
         <item itemvalue="Application.GZipExample" />
         <item itemvalue="Application.ScannerExample" />
         <item itemvalue="Application.Password" />
-        <item itemvalue="Application.StandardStreams" />
       </list>
     </recent_temporary>
   </component>
