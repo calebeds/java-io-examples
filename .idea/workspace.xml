@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b60203a2-d4ff-4a1e-9e08-a554176dd656" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/standardstreams/moreoptions/ScannerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/compressedstreams/GZipExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,7 @@
     "Application.FIleReaderAndFileWriter.executor": "Run",
     "Application.FileAPIMethods.executor": "Run",
     "Application.FiltersCharacterStreams.executor": "Run",
+    "Application.GZipExample.executor": "Run",
     "Application.InMemoryStreams.executor": "Run",
     "Application.Password.executor": "Run",
     "Application.PipedCharacterStreams.executor": "Run",
@@ -84,7 +85,20 @@
       <recent name="fileapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ScannerExample">
+  <component name="RunManager" selected="Application.GZipExample">
+    <configuration name="GZipExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compressedstreams.GZipExample" />
+      <module name="java-io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compressedstreams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Password" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="standardstreams.moreoptions.Password" />
       <module name="java-io" />
@@ -125,24 +139,11 @@
       </method>
     </configuration>
     <configuration name="StandardStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="standardstreams.StandardStreams" />
+      <option name="MAIN_CLASS_NAME" value="standardstreams.moreoptions.StandardStreams" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="standardstreams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WriteToHybridStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hybridstreams.WriteToHybridStream" />
-      <module name="java-io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hybridstreams.*" />
+          <option name="PATTERN" value="standardstreams.moreoptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GZipExample" />
         <item itemvalue="Application.ScannerExample" />
         <item itemvalue="Application.Password" />
         <item itemvalue="Application.StandardStreams" />
         <item itemvalue="Application.ReadHybridStream" />
-        <item itemvalue="Application.WriteToHybridStream" />
       </list>
     </recent_temporary>
   </component>
