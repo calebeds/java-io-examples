@@ -41,7 +41,7 @@ public class NovelReader {
             while ((line = reader.readLine()) != null) {
                 if(line.contains(".jpg")) {
                     ImageData data = new ImageData();
-                    String imageName = line.substring(91, line.indexOf(".jpg<")) + "jpg";
+                    String imageName = line.substring(91, line.indexOf(".jpg<")) + ".jpg";
                     data.setName(imageName);
                     String imageUrlString = string + line.substring(91, line.indexOf(".jpg<"));
                     byte[] readData = readData(imageUrlString);

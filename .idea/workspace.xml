@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b60203a2-d4ff-4a1e-9e08-a554176dd656" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hybridstreams/ImageData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hybridstreams/NovelPart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hybridstreams/NovelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hybridstreams/WriteToHybridStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hybridstreams/ReadHybridStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheLandOfAfternoon.bin" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheLandOfAfternoon.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hybridstreams/NovelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hybridstreams/NovelReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,7 @@
     "Application.PipedStream.executor": "Run",
     "Application.PrintStreams.executor": "Run",
     "Application.PushBackStreams.executor": "Run",
+    "Application.ReadHybridStream.executor": "Run",
     "Application.ReadingWritingCharArray.executor": "Run",
     "Application.ReadingWritingThroughBuffers.executor": "Run",
     "Application.SequenceStreams.executor": "Run",
@@ -84,7 +84,7 @@
       <recent name="fileapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WriteToHybridStream">
+  <component name="RunManager" selected="Application.ReadHybridStream">
     <configuration name="ExternalizationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="serialization.externalization.ExternalizationDemo" />
       <module name="java-io" />
@@ -98,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serialization.SerializationDemo" />
+    <configuration name="ReadHybridStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hybridstreams.ReadHybridStream" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="serialization.*" />
+          <option name="PATTERN" value="hybridstreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadHybridStream" />
         <item itemvalue="Application.WriteToHybridStream" />
         <item itemvalue="Application.serialization.proxyobject.SerializationDemo" />
         <item itemvalue="Application.ExternalizationDemo" />
         <item itemvalue="Application.serialization.privatemethods.SerializationDemo" />
-        <item itemvalue="Application.SerializationDemo" />
       </list>
     </recent_temporary>
   </component>
