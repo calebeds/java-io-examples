@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b60203a2-d4ff-4a1e-9e08-a554176dd656" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nio/CharsetAndCharBuffers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nio/ClientCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nio/SelectorsWithChannels.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
     "Application.AcessingRandomly.executor": "Run",
     "Application.BufferedCharacterStreams.executor": "Run",
     "Application.BufferedStream.executor": "Run",
+    "Application.CharsetAndCharBuffers.executor": "Run",
     "Application.DataStreams.executor": "Run",
     "Application.ExternalizationDemo.executor": "Run",
     "Application.FISAndFOS.executor": "Run",
@@ -54,6 +56,7 @@
     "Application.ReadingWritingCharArray.executor": "Run",
     "Application.ReadingWritingThroughBuffers.executor": "Run",
     "Application.ScannerExample.executor": "Run",
+    "Application.SelectorsWithChannels.executor": "Run",
     "Application.SequenceStreams.executor": "Run",
     "Application.SerializationDemo.executor": "Run",
     "Application.SkippingMarkingResetting.executor": "Run",
@@ -88,7 +91,7 @@
       <recent name="fileapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CharsetAndCharBuffers">
+  <component name="RunManager" selected="Application.ClientCode">
     <configuration name="CharsetAndCharBuffers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nio.CharsetAndCharBuffers" />
       <module name="java-io" />
@@ -102,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GZipExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="compressedstreams.GZipExample" />
+    <configuration name="ClientCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nio.ClientCode" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="compressedstreams.*" />
+          <option name="PATTERN" value="nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,6 +120,19 @@
     </configuration>
     <configuration name="ReadAndWriteData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nio.ReadAndWriteData" />
+      <module name="java-io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectorsWithChannels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nio.SelectorsWithChannels" />
       <module name="java-io" />
       <extension name="coverage">
         <pattern>
@@ -141,26 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZipDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="compressedstreams.ZipDemo" />
-      <module name="java-io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="compressedstreams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientCode" />
+        <item itemvalue="Application.SelectorsWithChannels" />
         <item itemvalue="Application.CharsetAndCharBuffers" />
         <item itemvalue="Application.ReadAndWriteData" />
         <item itemvalue="Application.WorkingWithPath" />
-        <item itemvalue="Application.ZipDemo" />
-        <item itemvalue="Application.GZipExample" />
       </list>
     </recent_temporary>
   </component>
